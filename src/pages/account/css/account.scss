@@ -1,0 +1,22 @@
+.controls{
+  text-align: left;
+
+  .controlButton{
+    margin: 5px;
+    background-color: #adadad;
+  }
+  
+  .add:hover{
+    background-color:#c88cff;
+  }
+  
+  .edit:hover{
+    background-color: #64adaf;
+  }
+  
+  .delete:hover{
+    background-color: #ff8c8c;
+  }
+
+}
+

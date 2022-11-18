@@ -1,0 +1,10 @@
+.bankCrud{
+  width: 98%;
+  .container{
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: blue solid 1px !important;
+    }
+  }
+}

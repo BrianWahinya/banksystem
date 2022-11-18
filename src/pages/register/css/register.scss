@@ -1,0 +1,65 @@
+$defFontSizeTitle: 18px;
+$defFontSize: 13px;
+body {
+  background-color: #757575 !important;
+  input:focus,
+  input:active,
+  textarea:focus,
+  textarea:active,
+  select:focus,
+  select:active,
+  .form-control:focus,
+  .form-control:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+  }
+
+  .register {
+    font-family: sans-serif;
+    text-align: center;
+    color: #fefeff;
+    font-size: 14px;
+    .titleRegister{
+      font-size: $defFontSizeTitle;
+      font-weight: bold;
+    }
+    .container{
+      margin-top: 100px;
+      border-width: 0;
+      .col{
+        border-width: 0 !important;
+        margin: 0 auto;
+        hr {
+          width: 70%;
+          margin: 5px auto;
+        }
+        .card {
+          margin-left: 25px;
+          margin-right: 25px;
+          background-color: #c7c7c7;
+          .form-label{
+            color: #242424;
+          }
+          .input-group-text{
+            width: 80px;
+          }
+          .btn{
+            margin-top: 5px;
+            background-color: #E9ECEF;
+            color: green;
+            font-size: $defFontSize;
+          }
+        }
+      }
+    }
+  }
+}
